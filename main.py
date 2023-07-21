@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 
-from config import config
+from api.config import config
 
 app = FastAPI()
 
